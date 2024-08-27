@@ -166,7 +166,7 @@ export default function CreateListing() {
             className='border p-3 rounded-lg'
             id='name'
             maxLength='62'
-            minLength='10'
+            minLength='1'
             required
             onChange={handleChange}
             value={formData.name}
@@ -272,7 +272,7 @@ export default function CreateListing() {
               <input
                 type='number'
                 id='regularPrice'
-                min='50'
+                min='0'
                 max='10000000'
                 required
                 className='p-3 border border-gray-300 rounded-lg'
